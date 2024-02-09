@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "Love";
+    src: url(./Love.ttf);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(251, 251, 251);
+    font-family: "Love", sans-serif;
+    height: 100vh;
+}
+
+.btn {
+    display: flex;
+    gap: 30px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.yes {
+    background-color: #80ED99;
+    transition: width .5s, height .5s;
+}
+
+.no {
+    background-color: #D45E5E;
+}
+
+h1 {
+    color: #f08080;
+    text-transform: uppercase;
+    font-size: 40px;
+}
